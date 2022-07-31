@@ -166,7 +166,6 @@ class _HomeScreenState extends State<HomeScreen> {
                         category: document['category'],
                         timestamp: document['timestamp'],
                         imgName: document['imgName']));
-                    // print(snapshot.data!.docs[i].data());
                   }
                   return _billSummaryBuilder();
                 } else {
